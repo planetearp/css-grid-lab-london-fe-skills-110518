@@ -11,15 +11,11 @@ body {
   display: grid;
   grid-gap: 5px;
   grid-template: repeat(4, 1fr) / repeat(3, 1fr);
-  justify-items: center;
-  alignt-items: center;
 }
 
 .grid-item {
   background-color: grey;
   border: 1px solid black;
-   height: 50%;
-  width: 50%;
 }
 
 .bigItem {
